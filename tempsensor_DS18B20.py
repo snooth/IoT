@@ -8,6 +8,8 @@ import time
 
 while True:
    # change the device ID to whatever yours is. 
+   # for 1-wire deployments, make sure you have at least a 4k7 ohm resistor from 3.3v to signal cable, otherwise you wont see therm in devices.
+   # therm device will always start with 28*
    for sensor in glob.glob("/sys/bus/w1/devices/28-01145428d9aa/w1_slave"):
       id = sensor.split("/")[5]
 
