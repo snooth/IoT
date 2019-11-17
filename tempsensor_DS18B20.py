@@ -24,5 +24,6 @@ while True:
 
       except:
          pass
-
+   
+   # Will poll every 3 secs - increase or decrease as intended. 
    time.sleep(3.0)
