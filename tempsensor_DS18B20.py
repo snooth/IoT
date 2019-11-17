@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # SnoothDogg - 2019
-# Tested and working on RPi Zero W (13/11/19)
+# Built, Tested and working on RPi Zero W (13/11/19)
 
 import glob
 import time
